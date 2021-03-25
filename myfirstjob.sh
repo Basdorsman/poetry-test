@@ -16,6 +16,7 @@ cd $PBS_O_WORKDIR
 
 
 source venv/bin/activate
+pip list
 python do_calculation.py
 
 
