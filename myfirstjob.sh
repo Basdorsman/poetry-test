@@ -14,5 +14,7 @@ module load python3-intel/2020.0.014
 
 cd $PBS_O_WORKDIR
 
-poetry shell
-poetry run python do_calculation.py
+source venv/bin/activate
+python do_calculation.py
+
+
