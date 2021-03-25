@@ -1,0 +1,43 @@
+Job 10831700.pbspl1.nas.nasa.gov started on Thu Mar 25 03:32:54 PDT 2021
+The job requested the following resources:
+    ncpus=1
+    place=scatter:excl
+    walltime=00:05:00
+
+PBS set the following environment variables:
+        FORT_BUFFERED = 1
+                   TZ = PST8PDT
+
+On r595i6n5:
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Current directory is /nobackupp12/bdorsman/tests/virtual-environment-test
+prompt: Undefined variable.
+Package    Version
+---------- -------
+astropy    4.2    
+numpy      1.20.1 
+pip        19.0.3 
+pyerfa     1.7.2  
+scipy      1.6.2  
+setuptools 40.8.0 
+You are using pip version 19.0.3, however version 21.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+[1916.06941724 3363.07062107 4451.7475201 ] Mpc
+
+____________________________________________________________________
+Job Resource Usage Summary for 10831700.pbspl1.nas.nasa.gov
+
+    CPU Time Used            : 00:00:03
+    Real Memory Used         : 47468kb
+    Walltime Used            : 00:00:49
+    Exit Status              : 0
+
+    Number of CPUs Requested : 1
+    Walltime Requested       : 00:05:00
+
+    Execution Queue          : devel
+    Charged To               : s3437
+
+    Job Stopped              : Thu Mar 25 03:33:48 2021
+____________________________________________________________________
