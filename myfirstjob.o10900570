@@ -1,0 +1,37 @@
+Job 10900570.pbspl1.nas.nasa.gov started on Wed Mar 31 08:43:08 PDT 2021
+The job requested the following resources:
+    ncpus=1
+    place=scatter:excl
+    walltime=00:05:00
+
+PBS set the following environment variables:
+        FORT_BUFFERED = 1
+                   TZ = PST8PDT
+
+On r573i1n9:
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Illegal variable name.
+Illegal variable name.
+conda: Command not found.
+conda: Command not found.
+poetry: Command not found.
+poetry: Command not found.
+poetry: Command not found.
+
+____________________________________________________________________
+Job Resource Usage Summary for 10900570.pbspl1.nas.nasa.gov
+
+    CPU Time Used            : 00:00:02
+    Real Memory Used         : 948kb
+    Walltime Used            : 00:00:01
+    Exit Status              : 1
+
+    Number of CPUs Requested : 1
+    Walltime Requested       : 00:05:00
+
+    Execution Queue          : devel
+    Charged To               : s3437
+
+    Job Stopped              : Wed Mar 31 08:43:15 2021
+____________________________________________________________________
